@@ -22,11 +22,11 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product-if-exists, vendor/softwinner/907/907-vendor.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_907
-PRODUCT_DEVICE := 907
-PRODUCT_BRAND := Allwinner
-PRODUCT_MODEL := MP907C
-PRODUCT_MANUFACTURER := Allwinner
+PRODUCT_NAME := crane_q7
+PRODUCT_DEVICE := crane-q7
+PRODUCT_BRAND := softwinner
+PRODUCT_MODEL := A10_MID
+PRODUCT_MANUFACTURER := MatrixOne
 
 
 

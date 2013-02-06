@@ -55,10 +55,10 @@ BOARD_USE_SKIA_LCDTEXT := true
 ENABLE_WEBGL := true
 
 #Recovery Stuff
-#BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/softwinner/907/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/softwinner/907/recovery_keys.c
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 BOARD_UMS_2ND_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun1/file"
-#TARGET_RECOVERY_INITRC := device/softwinner/907/recovery_init.rc
+TARGET_RECOVERY_INITRC := device/softwinner/907/recovery_init.rc
 
 #Misc stuff
 TARGET_USE_CUSTOM_LUN_FILE_PATH = "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
@@ -103,3 +103,6 @@ SW_BOARD_GSENSOR_DIRECT_Z := "true"
 SW_BOARD_GSENSOR_XY_REVERT := "true"
 
 COMMON_GLOBAL_CFLAGS += "-DICS_CAMERA_BLOB -DICS_AUDIO_BLOB"
+
+#   Team Win Recovery Project
+DEVICE_RESOLUTION := "800x480"

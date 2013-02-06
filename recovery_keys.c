@@ -12,16 +12,15 @@ int device_toggle_display(volatile char* key_pressed, int key_code) {
 int device_handle_key(int key_code, int visible) {
     if (visible) {
         switch (key_code) {
-            case 102:
-	    case 217:
+	    case 11:
 	    case 114:
                 return HIGHLIGHT_DOWN;
 
             case 115:
-	    case 139:
+	    case 1:
                 return HIGHLIGHT_UP;
 
-            case KEY_2:
+            case 102:
             case KEY_POWER:
                 return SELECT_ITEM;
             
