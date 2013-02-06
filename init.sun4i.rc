@@ -39,18 +39,19 @@ on boot
 	insmod /system/lib/modules/ump.ko
 	insmod /system/lib/modules/mali.ko
 	# touchscreen drivers
-	insmod /system/lib/modules/ft5x_ts.ko
-	insmod /system/lib/modules/goodix_touch_3F.ko
-	insmod /system/lib/modules/goodix_touch.ko
-	insmod /system/lib/modules/gt801_2plus1.ko
-	insmod /system/lib/modules/ssd253x-ts.ko
-	insmod /system/lib/modules/Novatek_TouchDriver.ko
+#	insmod /system/lib/modules/ft5x_ts.ko
+#	insmod /system/lib/modules/goodix_touch_3F.ko
+#	insmod /system/lib/modules/goodix_touch.ko
+#	insmod /system/lib/modules/gt801_2plus1.ko
+#	insmod /system/lib/modules/ssd253x-ts.ko
+#	insmod /system/lib/modules/Novatek_TouchDriver.ko
+        insmod /system/lib/modules/goodix_touch_811.ko
 	# gsensor drivers
 	insmod /system/lib/modules/bma250.ko
 	insmod /system/lib/modules/mecs.ko
-	insmod /system/lib/modules/mxc622x.ko
-	insmod /system/lib/modules/mma7660.ko
-	insmod /system/lib/modules/kxte9.ko
+#	insmod /system/lib/modules/mxc622x.ko
+#	insmod /system/lib/modules/mma7660.ko
+#	insmod /system/lib/modules/kxte9.ko
 	# camera drivers
 	insmod /system/lib/modules/videobuf-core.ko
 	insmod /system/lib/modules/videobuf-dma-contig.ko   
