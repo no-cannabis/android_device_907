@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
 # /system/usr
 PRODUCT_COPY_FILES += \
 	device/softwinner/907/prebuilt/usr/idc/ft5x_ts.idc:system/usr/idc/ft5x_ts.idc \
+	device/softwinner/907/prebuilt/usr/idc/ft5x_ts.idc:system/usr/idc/gt80x.idc \
 	device/softwinner/907/prebuilt/usr/idc/Goodix-TS-board-3.idc:system/usr/idc/Goodix-TS-board-3.idc \
 	device/softwinner/907/prebuilt/usr/keylayout/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 	device/softwinner/907/prebuilt/usr/keylayout/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
