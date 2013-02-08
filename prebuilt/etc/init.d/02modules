@@ -10,4 +10,7 @@ insmod /system/lib/modules/hid-sony.ko
 # UInput supplied by cherrytree
 insmod /system/lib/modules/uinput.ko
 
+# Goodix Touch 811 driver. Let it load via modprobe for now
+modprobe goodix_touch_811
+
 echo "done Additional Modules Autoload"

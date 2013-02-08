@@ -45,7 +45,7 @@ on boot
 #	insmod /system/lib/modules/gt801_2plus1.ko
 #	insmod /system/lib/modules/ssd253x-ts.ko
 #	insmod /system/lib/modules/Novatek_TouchDriver.ko
-        modprobe /system/lib/modules/goodix_touch_811.ko
+#       insmod /system/lib/modules/goodix_touch_811.ko   can't be loaded via insmod because it needs idc
 	# gsensor drivers
 	insmod /system/lib/modules/bma250.ko
 	insmod /system/lib/modules/mecs.ko
